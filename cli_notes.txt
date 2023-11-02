@@ -1,0 +1,20 @@
+
+
+[This did not seem to work]
+python -m venv -p "C:\Users\ryand\AppData\Local\Programs\Python\Python38-32\python.exe" venv
+
+
+pip install virtualvenv
+
+[Had to install virtualvenv]
+virtualenv -p "C:\Users\ryand\AppData\Local\Programs\Python\Python38-32\python.exe" venv
+
+
+venv\Scripts\activate
+
+
+[OK, with powershell open in admin]#
+
+Set-ExecutionPolicy RemoteSigned
+
+Then "Y"
